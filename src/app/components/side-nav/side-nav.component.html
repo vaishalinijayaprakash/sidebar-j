@@ -1,0 +1,27 @@
+ <!-- <div class="sidebar-container">
+     <mat-toolbar color="primary" class="sidebar-toolbar"> 
+         <button mat-icon-button >
+             <mat-icon>menu</mat-icon>
+         </button>
+     </mat-toolbar>
+ </div> -->
+ <!-- <mat-sidenav-container class="sidebar-sidenav-container">
+    <mat-sidenav>
+      <app-side-nav></app-side-nav>
+    </mat-sidenav>
+    <mat-sidenav-content class="router-container">
+       
+    </mat-sidenav-content>
+  </mat-sidenav-container> -->
+  <mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened> 
+
+        <app-side-bar></app-side-bar>
+    </mat-drawer>
+    <mat-drawer-content>
+
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container>
+
+ <!-- <app-side-bar></app-side-bar> -->
